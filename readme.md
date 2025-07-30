@@ -1,20 +1,22 @@
-# 🚦 Traffic Congestion Prediction – Big Data Capstone Project
+# 🚦 Traffic Congestion Prediction – Capstone Project
 
 ---
 
-## 👤 **Student Information**
+## 👤 **Personal Information**
 
-**Name:** Irakoze Grace Vanny\
-**ID:** 26425\
-**Course:** Introduction to Big Data Analytics\
-**Email:** [irakozevanny@example.com](mailto\:irakozevanny@example.com)\
-**GitHub:** [github.com/IrakozeVanny](https://github.com/IrakozeVanny)
+**Names:** Irakoze Grace Vanny
+
+**ID:** 26425
+
+**Course:** Introduction to Big Data Analytics
+
+**Email:** vannygrace2020@gmail.com
 
 ---
 
 ## 📌 **Project Overview**
 
-This project predicts **traffic congestion patterns and peak hours** using **Big Data Analytics** in the **Transportation sector**.\
+This project predicts **traffic congestion patterns and peak hours** using **Big Data Analytics** in the **Transportation sector**.
 By analyzing traffic data, the project aims to:
 
 - 🕒 Identify **peak traffic hours and busiest days**
@@ -130,7 +132,7 @@ print("RMSE:", rmse)
 print("R² Score:", r2)
 ```
 
-### 💡 **Innovation**
+### 💡 **Innovations**
 
 - Suggest **best travel hour** for each day
 
@@ -163,17 +165,6 @@ print("Best travel hour on Monday:", best_travel_hour(0))
 
 ---
 
-## 4️⃣ **Submission & Communication**
-
-- **GitHub Repository Structure:**
-  - `/data` → dataset
-  - `/notebooks` → Python code
-  - `/dashboard` → Power BI .pbix
-  - `/report` → README & documentation
-- **Presentation:** PowerPoint summarizing Introduction, Methodology, Results, Recommendations.
-
----
-
 ## 5️⃣ **Complexity & Creativity (Optional)**
 
 - Combine **traffic + weather** for enhanced predictions.
@@ -182,21 +173,9 @@ print("Best travel hour on Monday:", best_travel_hour(0))
 
 ---
 
-## 6️⃣ **Academic Integrity & Contact**
+## 6️⃣ **Contact Infos**
 
-- All work is **original and explainable**.
-- AI tools were used **responsibly** for guidance.
-- Contact: [**irakozevanny@example.com**](mailto\:irakozevanny@example.com)
 
-> *"Whatever you do, work at it with all your heart, as working for the Lord."* – Colossians 3:23
+- Contact: **vannygrace2020@gmail.com**
 
 ---
-
-### ✅ **Final Project Outcome**
-
-- Clean dataset with extracted features
-- EDA with peak-hour insights
-- ML model predicting traffic volume
-- Interactive **Power BI dashboard**
-- Complete **GitHub repository and presentation**
-
