@@ -5,8 +5,11 @@
 ## 👤 **Personal Information**
 
 **Names:** Irakoze Grace Vanny
+
 **ID:** 26425
+
 **Course:** Introduction to Big Data Analytics
+
 **Email:** vannygrace2020@gmail.com
 
 ---
