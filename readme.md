@@ -21,7 +21,7 @@ By analyzing traffic data, the project aims to:
 
 - 🕒 Identify **peak traffic hours and busiest days**
 - 🚗 Help **drivers inorder to reduce travel delays**
-- 🌱 Support **city planners in traffic management & reducing emissions**
+- 🌱 Support **city planners in traffic management & reducing emissions.**
 
 **Dataset:** [Metro Interstate Traffic Volume](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume)
 
@@ -75,9 +75,9 @@ Traffic congestion is a **daily challenge** in many cities, especially during **
 import pandas as pd
 
 # Load dataset
-data = pd.read_csv("Metro_Interstate_Traffic_Volume.csv")
+data = pd.read_csv("/kaggle/input/metro-interstate-traffic-volume/Metro_Interstate_Traffic_Volume.csv")
 
-# Clean dataset
+# Cleaning
 data.dropna(inplace=True)
 data['date_time'] = pd.to_datetime(data['date_time'])
 data['hour'] = data['date_time'].dt.hour
@@ -100,6 +100,10 @@ plt.title("Traffic Volume Distribution")
 plt.show()
 ```
 
+Output
+
+<img width="383" height="317" alt="image" src="https://github.com/user-attachments/assets/81cb5671-6cd6-4f1a-8f74-7b8d5d59e7f2" />
+
 ### 🤖 **Machine Learning Model**
 
 - **Algorithm:** Random Forest Regression
@@ -118,6 +122,11 @@ model = RandomForestRegressor(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 ```
 
+Output
+
+<img width="550" height="78" alt="image" src="https://github.com/user-attachments/assets/94b23fb0-1e04-4f3b-a2ac-a3f15f2b48b5" />
+
+
 ### 📈 **Model Evaluation**
 
 ```python
@@ -132,7 +141,11 @@ print("RMSE:", rmse)
 print("R² Score:", r2)
 ```
 
-### 💡 **Innovations**
+Output
+
+<img width="509" height="59" alt="image" src="https://github.com/user-attachments/assets/68e783ff-a7af-4d82-b031-bba03127861e" />
+
+### 💡 **Creativity**
 
 - Suggest **best travel hour** for each day
 
@@ -144,6 +157,10 @@ def best_travel_hour(weekday):
 
 print("Best travel hour on Monday:", best_travel_hour(0))
 ```
+
+Output
+
+<img width="559" height="179" alt="image" src="https://github.com/user-attachments/assets/320ac59e-7f43-4fc2-b915-0ad44f9f9dd9" />
 
 ---
 
@@ -162,6 +179,8 @@ print("Best travel hour on Monday:", best_travel_hour(0))
    - DAX formulas for **dynamic KPIs**
    - Bookmarks for **peak vs off-peak** view
    - Optional: AI Insights visual
+
+Output
    
   
    <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/51d9eeac-9d78-4625-a585-bb523e28e4e7" />
@@ -169,11 +188,10 @@ print("Best travel hour on Monday:", best_travel_hour(0))
 
 ---
 
-## 5️⃣ **Complexity & Creativity (Optional)**
+## 5️⃣ **Complexity & Creativity**
 
 - Combine **traffic + weather** for enhanced predictions.
-- Apply **Time Series Forecasting (ARIMA/Prophet)**.
-- Add **custom DAX measures** for live KPIs.
+- Apply **Time Series Forecasting**.
 
 ---
 
