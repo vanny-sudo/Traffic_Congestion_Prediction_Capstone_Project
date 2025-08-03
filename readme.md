@@ -25,6 +25,8 @@ By analyzing traffic data, the project aims to:
 
 **Dataset:** [Metro Interstate Traffic Volume](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume)
 
+**My Kaggle Notebook:** [Kaggle Worksheet Used](https://www.kaggle.com/code/irakozevannygrace/traffic-congestion-prediction-project)
+
 ---
 
 ## 1️⃣ **Part 1: Problem Definition & Planning**
