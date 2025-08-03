@@ -20,7 +20,7 @@ This project predicts **traffic congestion patterns and peak hours** using **Big
 By analyzing traffic data, the project aims to:
 
 - 🕒 Identify **peak traffic hours and busiest days**
-- 🚗 Help **drivers reduce travel delays**
+- 🚗 Help **drivers inorder to reduce travel delays**
 - 🌱 Support **city planners in traffic management & reducing emissions**
 
 **Dataset:** [Metro Interstate Traffic Volume](https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume)
@@ -151,7 +151,7 @@ print("Best travel hour on Monday:", best_travel_hour(0))
 
 ### 🎯 **Dashboard Requirements**
 
-1. **Communicate insights clearly** with title, KPIs, and problem summary.
+1. **Communicate insights clearly** with title and problem summary.
 2. **Interactive slicers and filters** for weekday, hour, and weather.
 3. **Visualizations:**
    - 📊 Bar chart: Traffic by weekday
@@ -162,6 +162,10 @@ print("Best travel hour on Monday:", best_travel_hour(0))
    - DAX formulas for **dynamic KPIs**
    - Bookmarks for **peak vs off-peak** view
    - Optional: AI Insights visual
+   
+  
+   <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/51d9eeac-9d78-4625-a585-bb523e28e4e7" />
+
 
 ---
 
